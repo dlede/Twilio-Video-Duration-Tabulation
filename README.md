@@ -1,4 +1,5 @@
 # Twilio Video Minutes Tabulation Script
+Disclaimer: This is not maintained by Twilio or represent Twilio in any way. 
 This script takes in a Account SID and Auth Token provided by Twilio and runs through the whole Video Logs in your Account. This script is not efficient in anyway but does help consolidate all the seconds and consolidate them into an estimated minutes.
 
 ## Requirement
