@@ -2,7 +2,7 @@
 This is not maintained by Twilio or represent Twilio in any way. 
 
 # Twilio Video Minutes Tabulation Script
-Currently there is no way to tabulate the duration of all the video you have used on [Twilio Video](https://www.twilio.com/docs/video/video-log-analyzer), https://www.twilio.com/console/video/historic/logs/rooms. 
+Currently there is no way to tabulate the duration of all the video you have used on [Twilio Video](https://www.twilio.com/docs/video/video-log-analyzer).
 This script takes in a Account SID and Auth Token provided by Twilio and runs through the whole Video Logs in your Account. This script is not efficient in anyway but does help 
 consolidate all the seconds and consolidate them into an estimated minutes.
 
