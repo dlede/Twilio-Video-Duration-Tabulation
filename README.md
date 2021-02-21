@@ -22,6 +22,15 @@ $ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN]
 
 # Running the Python Script export to csv
 $ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN] > video_all.csv
+
+# Running the Python Script specific to "today", "week", "month", specific date
+$ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN] day
+$ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN] week
+$ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN] month
+$ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN] [DATE_FROM] [DATE_TO]
+
+# Running the Python Script and export to csv
+$ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN] > video_all.csv
 ```
 
 ## Performance
