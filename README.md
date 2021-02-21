@@ -36,5 +36,5 @@ $ python video_analyzer_script.py [ACCOUNT_SID] [AUTH_TOKEN] > video_all.csv
 
 ## Performance
 Warning: This is not a very efficient way of tabulating Video Participants minutes and may or may not be 100% accurate. 
-On average 1 entry takes 2 seconds, so that's 2N seconds given N number of particiapnts (individual participants have different duration in individual room).
-Example - 3,000 particpants will 6,000 seconds (equivalent to 100 minutes) to run the script completely.
+On average 1 entry takes 0.7-1.2 seconds, so that's 1.2N seconds given N number of particiapnts (individual participants have different duration in individual room).
+Example - 3,000 particpants will 3,600 seconds (equivalent to 60 minutes) to run the script completely.
